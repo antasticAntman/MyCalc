@@ -1,8 +1,14 @@
 import './App.css';
+import React, {useEffect} from 'react'
 
 function App() {
+
+  useEffect( () => {
+    console.log('Making sure the react app is mounting correcty')
+  })
+
   return (
-  <div class="calc-body">
+  <div className="calc-body">
     <h1>My Calc</h1>
   </div>
   )

@@ -192,6 +192,22 @@ code {
 /* ^This allows for any hiddem props to work for screen */
 
 /**********************/
+/* --Color-- */
+/**********************/
+
+/* Background Color */
+.bg-color-dark { background-color: hsl(var(--clr-dark));}
+.bg-color-light { background-color: hsl(var(--clr-light));}
+
+/* Text Color */
+.text-dark { color:hsl(var(--clr-dark))}
+.text-light { color:hsl(var(--clr-light))}
+.text-white { color:hsl(var(--clr-white))}
+
+/* Border Color */
+.border-color-light { border: 1px solid hsl(var(--clr-light))}
+
+/**********************/
 /* --Layout-- */
 /**********************/
 

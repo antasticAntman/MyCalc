@@ -208,6 +208,22 @@ code {
 .border-color-light { border: 1px solid hsl(var(--clr-light))}
 
 /**********************/
+/* --Typography-- */
+/**********************/
+.ff-lato { font-family: var(--ff-lato);}
+
+.letter-spacing-1 {
+  letter-spacing: 4.5px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 3.25px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 2px;
+}
+/**********************/
 /* --Layout-- */
 /**********************/
 

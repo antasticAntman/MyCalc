@@ -131,3 +131,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ******************** */
+/* Utility Classes */
+/* ******************** */
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+
+.d-block {
+  display: block;
+  gap: var(--gap, 1rem);
+}
+/**********************/
+/* --Layout-- */
+/**********************/
+

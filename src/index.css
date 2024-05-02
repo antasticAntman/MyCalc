@@ -254,10 +254,11 @@ code {
   cursor:pointer;
 }
 
-.number-button {
+.grid-container {
   display:grid;
-  /* grid-template-areas: ; */
-  gap:.5rem;
+  gap:.8rem;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: minmax(1rem, 1fr) repeat(3, minmax(0,1rem) minmax(1rem, 1fr));
   border:1px solid red
 }
 

@@ -153,7 +153,6 @@ code {
 }
 
 .flow > *:where(:not(:first-child)){
-
   margin-top: var(--flow-space, 1rem);
 }
 
@@ -243,6 +242,25 @@ code {
 .fs-600{
     line-height: 1.1;
 }
+
+/**********************/
+/* --Components-- */
+/**********************/
+.key {
+  border-radius:15px;
+  padding:.7rem;
+  padding-inline: 1.8rem;
+  border:none;
+  cursor:pointer;
+}
+
+.number-button {
+  display:grid;
+  /* grid-template-areas: ; */
+  gap:.5rem;
+  border:1px solid red
+}
+
 /**********************/
 /* --Layout-- */
 /**********************/

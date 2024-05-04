@@ -256,9 +256,9 @@ code {
 
 .grid-container {
   display:grid;
-  gap:.8rem;
+  /* gap:.8rem; */
   grid-template-rows: min-content 1fr;
-  grid-template-columns: minmax(1rem, 1fr) repeat(3, minmax(0,1rem) minmax(1rem, 1fr));
+  grid-template-columns: minmax(1rem, 1fr) repeat(3, minmax(0,5rem) minmax(1rem, 1fr));
   border:1px solid red
 }
 
@@ -267,6 +267,7 @@ code {
 /**********************/
 #key-1 {
   grid-area:key-1;
+  /* border:5px solid yellow */
 }
 
 #key-2 {

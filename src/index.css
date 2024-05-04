@@ -265,4 +265,21 @@ code {
 /**********************/
 /* --Layout-- */
 /**********************/
+#key-1 {
+  grid-area:key-1;
+}
+
+#key-2 {
+  grid-area:key-2;
+}
+
+#key-3 {
+  grid-area:key-3;
+}
+
+.grid-container-keysection {
+  grid-template-areas: 
+  ". key-1 key-2 key-3 ."
+  ;
+}
 

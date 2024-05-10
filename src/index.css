@@ -254,11 +254,11 @@ code {
   cursor:pointer;
 }
 
-.grid-container {
+.grid-container-keysection {
   display:grid;
-  /* gap:.8rem; */
+  /* gap:1.5rem; */
   grid-template-rows: min-content 1fr;
-  grid-template-columns: minmax(1rem, 1fr) repeat(3, minmax(0,5rem) minmax(1rem, 1fr));
+  grid-template-columns: minmax(1rem, 1fr) repeat(3, minmax(0,5rem)) minmax(1rem, 1fr);
   border:1px solid red
 }
 
@@ -267,15 +267,17 @@ code {
 /**********************/
 #key-1 {
   grid-area:key-1;
-  /* border:5px solid yellow */
+  border:5px solid yellow
 }
 
 #key-2 {
   grid-area:key-2;
+  border:5px solid yellow
 }
 
 #key-3 {
   grid-area:key-3;
+  border:5px solid yellow
 }
 
 .grid-container-keysection {

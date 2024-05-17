@@ -331,3 +331,23 @@ code {
   grid-column:3;
   grid-row:4;
 }
+
+#key-divide {
+  grid-column:4;
+  grid-row:1;
+}
+
+#key-multiply {
+  grid-column:4;
+  grid-row:2;
+}
+
+#key-minus {
+  grid-column:4;
+  grid-row:3;
+}
+
+#key-plus {
+  grid-column:4;
+  grid-row:4;
+}

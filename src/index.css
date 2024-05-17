@@ -317,7 +317,17 @@ code {
   grid-row:3;
 }
 
-/* #key-negative {
+#key-negative {
   grid-column:1;
   grid-row:4;
-} */
+}
+
+#key-0 {
+  grid-column:2;
+  grid-row:4;
+}
+
+#key-point {
+  grid-column:3;
+  grid-row:4;
+}

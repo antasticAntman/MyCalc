@@ -351,3 +351,7 @@ code {
   grid-column:4;
   grid-row:4;
 }
+
+.input-box  {
+  margin-bottom:1rem;
+}

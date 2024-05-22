@@ -361,6 +361,7 @@ code {
   padding-inline:.5rem;
   border-radius: 15px;
   text-align: right;
+  border: 2px solid hsl(var(--clr-light))
 }
 
 .calc-body {

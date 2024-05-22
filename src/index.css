@@ -260,7 +260,6 @@ code {
   align-items: center;
   gap:1.5rem;
   grid-template-rows: min-content 1fr;
-  border:1px solid red;
 }
 
 /**********************/
@@ -320,6 +319,7 @@ code {
 #key-negative {
   grid-column:1;
   grid-row:4;
+  padding-inline:1.5rem;
 }
 
 #key-0 {

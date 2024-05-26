@@ -1,11 +1,12 @@
 import './App.css';
 import React, {useEffect, useState} from 'react'
-import {word} from './Data/calc-data'
+import calc_data, {word} from './Data/calc-data'
 
 function App() {
 
   useEffect( () => {
     console.log(`Making sure the react app is mounting correcty and ${word}`)
+    console.log(calc_data)
   })
 
   return (

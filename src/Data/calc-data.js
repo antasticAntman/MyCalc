@@ -42,5 +42,17 @@ export default [
     },    {
         id:'key-point',
         key_info:'.'
+    },    {
+        id:'key-divide',
+        key_info:'/'
+    },    {
+        id:'key-multiply',
+        key_info:'*'
+    },    {
+        id:'key-minus',
+        key_info:'-'
+    },    {
+        id:'key-add',
+        key_info:'+'
     },
 ]

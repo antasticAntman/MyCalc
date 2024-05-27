@@ -33,5 +33,14 @@ export default [
     },    {
         id:'key-9',
         key_info:'9'
+    },    {
+        id:'key-negative',
+        key_info:'+/-'
+    },    {
+        id:'key-0',
+        key_info:'0'
+    },    {
+        id:'key-point',
+        key_info:'.'
     },
 ]

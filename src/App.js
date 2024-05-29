@@ -16,6 +16,11 @@ function App() {
   <div className="calc-body">
     <h1>My Calc</h1>
     <CalcKey calc_data={testData}/>
+    {calc_data.map((calc_info) => {
+      return (
+        console.log(calc_info)
+      )
+    })}
   </div>
   )
 }

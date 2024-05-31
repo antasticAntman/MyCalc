@@ -5,20 +5,17 @@ import CalcKey from './Components/CalcKey';
 
 function App() {
 
-  const testData = calc_data[0]
 
   useEffect( () => {
     console.log(`Making sure the react app is mounting correcty and ${word}`)
-    console.log(testData)
   })
 
   return (
   <div className="calc-body">
-    <h1>My Calc</h1>
-    <CalcKey calc_data={testData}/>
+    <h1 className='title-card'>My Calc</h1>
     {calc_data.map((calc_info) => {
       return (
-        console.log(calc_info)
+        <CalcKey calc_data={calc_info}/>        
       )
     })}
   </div>
@@ -26,3 +23,4 @@ function App() {
 }
 
 export default App;
+// Were adding the CalcKey button next for the app!

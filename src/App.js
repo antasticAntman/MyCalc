@@ -11,13 +11,23 @@ function App() {
   })
 
   return (
-  <div className="calc-body">
+  <div>
     <h1 className='title-card'>My Calc</h1>
-    {calc_data.map((calc_info) => {
-      return (
-        <CalcKey calc_data={calc_info}/>        
-      )
-    })}
+    
+    <div className='container calc-body'>
+
+      <div class="uppercase input-box">
+        <span>Number?</span>
+      </div>
+
+      <div className='grid-container grid-container-keysection'>
+        {calc_data.map((calc_info) => {
+          return (
+            <CalcKey calc_data={calc_info}/>        
+          )
+        })}
+      </div>
+    </div>
   </div>
   )
 }

@@ -9,6 +9,6 @@ export default function CalcKey(props) {
     })
     
     return (
-        <button id={calc_data.id}>{calc_data.key_info}</button>
+        <button className='uppercase bg-color-light key text-white' id={calc_data.id}>{calc_data.key_info}</button>
      );
 };

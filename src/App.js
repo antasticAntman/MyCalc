@@ -19,13 +19,15 @@ function App() {
       <div class="uppercase input-box">
         <span>Number?</span>
       </div>
-
-      <div className='grid-container grid-container-keysection'>
-        {calc_data.map((calc_info) => {
-          return (
-            <CalcKey calc_data={calc_info}/>        
-          )
-        })}
+      
+      <div className='grid-container'>
+        <div className='grid-container grid-container-keysection'>
+          {calc_data.map((calc_info) => {
+            return (
+              <CalcKey calc_data={calc_info}/>        
+            )
+          })}
+        </div>
       </div>
     </div>
   </div>

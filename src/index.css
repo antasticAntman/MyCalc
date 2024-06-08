@@ -250,6 +250,8 @@ code {
   border-radius:15px;
   padding:.7rem;
   padding-inline: 1.8rem;
+  height:10rem;
+  width:11rem;
   border:none;
   cursor:pointer;
 }
@@ -258,8 +260,10 @@ code {
   display:grid;
   justify-items: center;
   align-items: center;
-  gap:1.5rem;
+  gap:9rem;
   grid-template-rows: min-content 1fr;
+
+  border:1px solid red
 }
 
 /**********************/

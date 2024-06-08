@@ -270,6 +270,10 @@ code {
 /* --Layout-- */
 /**********************/
 
+.container {
+  margin-top: 5rem;
+}
+
 .title-card {
   text-align: center;
 }
@@ -371,4 +375,8 @@ code {
 .calc-body {
   margin:auto auto;
   /* margin-top: 2rem; */
+}
+
+.calcApp {
+  border:1px solid yellow
 }

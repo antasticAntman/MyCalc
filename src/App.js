@@ -11,7 +11,7 @@ function App() {
   })
 
   return (
-  <div>
+  <div className='calcApp'>
     <h1 className='title-card'>My Calc</h1>
     
     <div className='container calc-body'>
@@ -20,7 +20,7 @@ function App() {
         <span>Number?</span>
       </div>
       
-      <div className='grid-container'>
+      <div className='grid-container container'>
         <div className='grid-container grid-container-keysection'>
           {calc_data.map((calc_info) => {
             return (

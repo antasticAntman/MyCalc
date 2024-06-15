@@ -7,7 +7,6 @@ function App() {
 
 
   useEffect( () => {
-    console.log(`Making sure the react app is mounting correcty and ${word}`)
   })
 
   return (

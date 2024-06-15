@@ -11,6 +11,6 @@ export default function CalcKey(props) {
     }
     
     return (
-        <button className='uppercase bg-color-light key text-white' id={calc_data.id} onClick={buttonClicker()}>{calc_data.key_info}</button>
+        <button className='uppercase bg-color-light key text-white' id={calc_data.id} onClick={ () => {buttonClicker()}}>{calc_data.key_info}</button>
      );
 };

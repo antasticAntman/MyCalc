@@ -5,9 +5,11 @@ import CalcKey from './Components/CalcKey';
 
 function App() {
 
-  const buttonClicker = () => {
+  const [equation, setEquation] = useState('Number?')
+
+  const buttonClicker = (number) => {
     return (
-    console.log('hello from the calc')
+    console.log('Here is the key number', number)
     )
 }
 
@@ -18,7 +20,7 @@ function App() {
     <div className='container calc-body'>
 
       <div class="uppercase input-box">
-        <span>Number?</span>
+        <span>{equation}</span>
       </div>
       
       <div className='grid-container container'>

@@ -27,7 +27,7 @@ function App() {
         <div className='grid-container grid-container-keysection'>
           {calc_data.map((calc_info) => {
             return (
-              <CalcKey calc_data={calc_info} buttonClicker={buttonClicker}/>        
+              <CalcKey key={calc_info.id} calc_data={calc_info} buttonClicker={buttonClicker}/>        
             )
           })}
         </div>

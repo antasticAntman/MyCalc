@@ -8,6 +8,7 @@ function App() {
   const [equation, setEquation] = useState('Number?')
 
   const buttonClicker = (number) => {
+      setEquation(number)
     return (
     console.log('Here is the key number', number)
     )

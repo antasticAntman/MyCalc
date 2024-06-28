@@ -9,12 +9,10 @@ function App() {
 
   const buttonClicker = (number) => {
     if(equation === 'Number?') {
-      console.log('here with the numba')
-      }
-      // setEquation(number)
-    return (
-    console.log('Here is the key number', number)
-    )
+      setEquation(number)
+    } else {
+      console.log('Adding to the state', number)
+    }
 }
 
   return (

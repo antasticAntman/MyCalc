@@ -11,9 +11,10 @@ function App() {
     if(equation === 'Number?') {
       setEquation(number)
     } else {
-      console.log('Adding to the state', number)
+      // return setEquation(`${equation} ${number}`)
+      setEquation(equation + number)
     }
-}
+  }
 
   return (
   <div className='calcApp'>

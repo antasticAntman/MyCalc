@@ -11,7 +11,6 @@ function App() {
     if(equation === 'Number?') {
       setEquation(number)
     } else {
-      // return setEquation(`${equation} ${number}`)
       setEquation(equation + number)
     }
   }
@@ -41,4 +40,6 @@ function App() {
 }
 
 export default App;
-// Were adding the CalcKey button next for the app!
+
+
+// Update the calc data where it holds the information for the calc data to be put into the input form. Then add the Submition button!

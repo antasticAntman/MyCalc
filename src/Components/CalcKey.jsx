@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react'
 
 export default function CalcKey(props) {
-    
-    // useEffect( () => {
-    //     console.log(props)
-    // })
 
     const {calc_data, buttonClicker} = props
 
@@ -14,5 +10,3 @@ export default function CalcKey(props) {
      );
 };
 
-// When I work on this next, add onto the calc data info, so the information for the button clicker can be set up, also add some mularkey just in case
-// I can not hop on and code tomorrow. I will I promise, I made an oath to do so! Believe it!

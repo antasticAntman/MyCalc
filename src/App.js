@@ -44,3 +44,6 @@ function App() {
 
 export default App;
 
+// I am gonna put the equation button and the clear button
+// at the bottom of the calc where the numbers are. I have to update the
+// calc data array to have those numbers as a piece of data not the name

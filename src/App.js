@@ -20,11 +20,12 @@ function App() {
     <h1 className='title-card'>My Calc</h1>
     
     <div className='container calc-body'>
-      
-      <div class="uppercase input-box">
-      <button className='uppercase bg-color-light key text-white'>=</button>
-      
-      <span>{equation}</span>
+
+      <div>      
+        <button className='uppercase bg-color-light key text-white'>=</button>
+        <div class="uppercase input-box">
+          <span>{equation}</span>
+        </div>
       </div>
       
       <div className='grid-container container'>

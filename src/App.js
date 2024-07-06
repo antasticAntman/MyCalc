@@ -41,5 +41,3 @@ function App() {
 
 export default App;
 
-
-// Update the calc data where it holds the information for the calc data to be put into the input form. Then add the Submition button!

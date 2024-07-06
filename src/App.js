@@ -20,7 +20,8 @@ function App() {
     <h1 className='title-card'>My Calc</h1>
     
     <div className='container calc-body'>
-
+      
+      <button>=</button>
       <div class="uppercase input-box">
         <span>{equation}</span>
       </div>

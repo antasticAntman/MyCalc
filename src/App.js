@@ -21,9 +21,10 @@ function App() {
     
     <div className='container calc-body'>
       
-      <button>=</button>
       <div class="uppercase input-box">
-        <span>{equation}</span>
+      <button className='uppercase bg-color-light key text-white'>=</button>
+      
+      <span>{equation}</span>
       </div>
       
       <div className='grid-container container'>

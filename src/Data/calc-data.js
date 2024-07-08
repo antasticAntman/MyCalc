@@ -48,21 +48,27 @@ export default [
         key_data:'-'
     },    {
         id:'key-0',
-        key_info:'0'
+        key_info:'0',
+        key_data:'0'
     },    {
         id:'key-point',
-        key_info:'.'
+        key_info:'.',
+        key_data:'.'
     },    {
         id:'key-divide',
-        key_info:'/'
+        key_info:'/',
+        key_data:'/'
     },    {
         id:'key-multiply',
-        key_info:'*'
+        key_info:'*',
+        key_data:'*'
     },    {
         id:'key-minus',
-        key_info:'-'
+        key_info:'-',
+        key_data:'-'
     },    {
         id:'key-add',
-        key_info:'+'
+        key_info:'+',
+        key_data:'+'
     },
 ]

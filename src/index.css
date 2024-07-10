@@ -393,4 +393,6 @@ code {
   left:50%;
   transform: translate(-50%,-50%);
   font-size:var(--fs-500) ;
+  border-radius:35px; 
+  /* 21?  */
 }

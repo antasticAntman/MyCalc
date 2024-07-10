@@ -70,11 +70,5 @@ export default [
         id:'key-add',
         key_info:'+',
         key_data:'+'
-    },    {
-        id:'key-equate',
-        key_info:'=',
-    },    {
-        id:'key-clear',
-        key_info:'C',
     },
 ]

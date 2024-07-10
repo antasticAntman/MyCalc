@@ -22,7 +22,6 @@ function App() {
     <div className='container calc-body'>
 
       <div>      
-        <button className='uppercase bg-color-light key text-white'>=</button>
         <div class="uppercase input-box">
           <span>{equation}</span>
         </div>

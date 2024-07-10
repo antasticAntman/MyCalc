@@ -73,5 +73,8 @@ export default [
     },    {
         id:'key-equate',
         key_info:'=',
+    },    {
+        id:'key-clear',
+        key_info:'C',
     },
 ]

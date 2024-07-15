@@ -34,8 +34,8 @@ function App() {
               <CalcKey key={calc_info.id} calc_data={calc_info} buttonClicker={buttonClicker}/>        
             )
           })}
-          <button key='key_equate' className='uppercase bg-color-light key text-white'>=</button>
-          <button key='key_clear' className='uppercase bg-color-light key text-white'>c</button>
+          <button id='key_equate' key='key_equate' className='uppercase bg-color-light key text-white'>=</button>
+          <button id='key_clear' key='key_clear' className='uppercase bg-color-light key text-white'>c</button>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ function App() {
   }
 
   const submitionButton = (number) => {
-    console.log(2*2)
+    console.log('Number', number)
   }
 
   return (

@@ -19,6 +19,10 @@ function App() {
     console.log('Number', number)
   }
 
+  const clearButton = () => {
+    console.log('cleared')
+  }
+
   return (
   <div className='calcApp'>
     <h1 className='title-card'>My Calc</h1>

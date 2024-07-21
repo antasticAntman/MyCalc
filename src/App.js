@@ -43,7 +43,7 @@ function App() {
             )
           })}
           <button id='key-equate' key='key_equate' onClick={()=>submitionButton(equation)} className='uppercase bg-color-light key text-white'>=</button>
-          <button id='key-clear' key='key_clear' className='uppercase bg-color-light key text-white'>c</button>
+          <button id='key-clear' key='key_clear' onClick={()=>clearButton()} className='uppercase bg-color-light key text-white'>c</button>
         </div>
       </div>
     </div>

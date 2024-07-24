@@ -16,11 +16,14 @@ function App() {
   }
 
   const submitionButton = (number) => {
-  // Create a new Variable that copies over the stringify number into a real number for the computer to process it!
-    const NewNumber = parseInt(number)
-    if(number === NewNumber) {
-      console.log('they are the same')
-    }
+  // We need to loop over the orignal number until it reaches a boolean of * or - or + or / 
+    // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
+    // Make a new number set to add to that array until it either reaches the end or another boolean
+    const newNumber = parseInt(number)
+
+    const multiply = parseInt("*")
+
+    console.log("3" * "2")
   // Run that equation to see the result, console log that said result!
 
   // Return the result as a string, then set the state back as the result

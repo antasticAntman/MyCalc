@@ -16,7 +16,9 @@ function App() {
   }
 
   const submitionButton = (number) => {
-    console.log('Number', number)
+    if (number === parseInt(number)){
+      console.log(true)
+    }
   }
 
   const clearButton = () => {

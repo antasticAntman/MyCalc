@@ -18,7 +18,7 @@ function App() {
   const submitionButton = (number) => {
   // Create a new Variable that copies over the stringify number into a real number for the computer to process it!
     const NewNumber = parseInt(number)
-    if(parseInt(number) === NewNumber) {
+    if(number === NewNumber) {
       console.log('they are the same')
     }
   // Run that equation to see the result, console log that said result!

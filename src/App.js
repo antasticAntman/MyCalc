@@ -20,7 +20,7 @@ function App() {
   }
 
   const clearButton = () => {
-    console.log('cleared')
+    setEquation('Number?')
   }
 
   return (

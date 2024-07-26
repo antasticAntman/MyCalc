@@ -19,7 +19,9 @@ function App() {
   // We need to loop over the orignal number until it reaches a boolean of * or - or + or / 
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
     // Make a new number set to add to that array until it either reaches the end or another boolean
-    const newNumber = parseInt(number)
+    for(let n of number) {
+      console.log(n)
+    }
 
     const multiply = parseInt("*")
 

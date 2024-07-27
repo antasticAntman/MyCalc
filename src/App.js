@@ -23,9 +23,6 @@ function App() {
       console.log(n)
     }
 
-    const multiply = parseInt("*")
-
-    console.log("3" * "2")
   // Run that equation to see the result, console log that said result!
 
   // Return the result as a string, then set the state back as the result

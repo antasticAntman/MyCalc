@@ -20,7 +20,16 @@ function App() {
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
     // Make a new number set to add to that array until it either reaches the end or another boolean
     for(let n of number) {
-      console.log(n)
+      if(n ==='*'){
+        console.log("*")
+      } else if (n === "/"){
+        console.log("/")
+      } else if (n === "+") {
+        console.log("+")
+      } else if (n === "-"){
+        console.log("-")
+      }
+      console.log('n',n)
     }
 
   // Run that equation to see the result, console log that said result!

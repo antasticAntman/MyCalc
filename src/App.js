@@ -31,7 +31,7 @@ function App() {
       } else if (i === "-"){
         console.log("-")
       }
-
+  // I have too add the number[i]
       first_part = first_part + i
       console.log("First cantation",first_part)
     }

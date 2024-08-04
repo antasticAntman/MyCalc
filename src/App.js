@@ -20,19 +20,19 @@ function App() {
   // We need to loop over the orignal number until it reaches a boolean of * or - or + or / 
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
     // Make a new number set to add to that array until it either reaches the end or another boolean
-    for(let i = 0; i <= number.length; i++) {
+    for(let i = 0; i <= number.length - 1; i++) {
       const str_lngth = number.length
-      if(i ==='*'){
+      if(number[i] ==='*'){
         console.log("length", str_lngth)
-      } else if (i === "/"){
+      } else if (number[i] === "/"){
         console.log("/")
-      } else if (i === "+") {
+      } else if (number[i] === "+") {
         console.log("+")
-      } else if (i === "-"){
+      } else if (number[i] === "-"){
         console.log("-")
       }
   // I have too add the number[i]
-      first_part = first_part + i
+      first_part = first_part + number[i]
       console.log("First cantation",first_part)
     }
 

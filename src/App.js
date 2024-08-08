@@ -25,9 +25,11 @@ function App() {
       const str_lngth = number.length
       if(number[i] ==='*'){
         console.log("length", str_lngth)
-        for(let n = i; n <= number.length -1; n++) {
-          console.log(number[n])
+        for(let n = i+1; n <= number.length -1; n++) {
+          // console.log(number[n])
+          second_half = second_half + number[n]
         }
+        console.log(second_half)
         break
       } else if (number[i] === "/"){
         console.log("/")

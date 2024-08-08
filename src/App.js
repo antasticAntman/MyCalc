@@ -25,7 +25,10 @@ function App() {
       const str_lngth = number.length
       if(number[i] ==='*'){
         console.log("length", str_lngth)
-
+        for(let n = i; n <= number.length -1; n++) {
+          console.log(number[n])
+        }
+        break
       } else if (number[i] === "/"){
         console.log("/")
       } else if (number[i] === "+") {

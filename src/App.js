@@ -33,9 +33,10 @@ function App() {
           second_half = second_half + number[n]
         }
         result = first_part * second_half;
-        // i = n
-        console.log(result);
-        // break
+        i = n-1
+        console.log('results',result);
+        console.log(number[i])
+        setEquation(result)
       } else if (number[i] === "/"){
         console.log("/")
       } else if (number[i] === "+") {

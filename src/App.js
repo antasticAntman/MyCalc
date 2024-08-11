@@ -18,6 +18,8 @@ function App() {
   const submitionButton = (number) => {
     let first_part = "";
     let second_half = "";
+
+    let result = ''
   // We need to loop over the orignal number until it reaches a boolean of * or - or + or / 
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
     // Make a new number set to add to that array until it either reaches the end or another boolean
@@ -25,12 +27,15 @@ function App() {
       const str_lngth = number.length
       if(number[i] ==='*'){
         console.log("length", str_lngth)
-        for(let n = i+1; n <= number.length -1; n++) {
+        let n = i+1
+        for(n; n <= number.length -1; n++) {
           // console.log(number[n])
           second_half = second_half + number[n]
         }
-        console.log(second_half)
-        break
+        result = first_part * second_half;
+        // i = n
+        console.log(result);
+        // break
       } else if (number[i] === "/"){
         console.log("/")
       } else if (number[i] === "+") {

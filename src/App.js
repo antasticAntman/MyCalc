@@ -32,6 +32,7 @@ function App() {
           // console.log(number[n])
         if(number[n] === '*') {
           console.log('found another boolean')
+          result = first_part * second_half;
           console.log('result', result)
           console.log('second half', second_half)
           break

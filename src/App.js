@@ -30,7 +30,14 @@ function App() {
         let n = i+1
         for(n; n <= number.length -1; n++) {
           // console.log(number[n])
+        if(number[n] === '*') {
+          console.log('found another boolean')
+          console.log('result', result)
+          console.log('second half', second_half)
+          break
+        } else {
           second_half = second_half + number[n]
+        }
         }
         result = first_part * second_half;
         i = n-1

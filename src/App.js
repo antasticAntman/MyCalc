@@ -28,20 +28,48 @@ function App() {
       if(number[i] ==='*'){
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          if(number[n] === '*') {
-            result = first_part * second_half;
-            first_part = result
-            second_half = ''
-            break
-          } else {
-            second_half = second_half + number[n]
-          }
+          // console.log(number[n])
+        if(number[n] === '*') {
+          console.log('found another boolean')
+          result = first_part * second_half;
+          console.log('result', result)
+          first_part = result
+          console.log('first half', first_part)
+          second_half = ''
+          console.log('second half', second_half)
+          break
+        } else {
+          second_half = second_half + number[n]
+        }
         }
         result = first_part * second_half;
         i = n-1
+        console.log('end results',result);
+        console.log(number[i])
         setEquation(result)
       } else if (number[i] === "/"){
-        console.log("/")
+        // console.log("/")
+        let n = i+1
+        for(n; n <= number.length -1; n++) {
+          // console.log(number[n])
+        if(number[n] === '/') {
+          console.log('found another boolean')
+          result = first_part / second_half;
+          console.log('result', result)
+          first_part = result
+          console.log('first half', first_part)
+          second_half = ''
+          console.log('second half', second_half)
+          break
+        } else {
+          second_half = second_half + number[n]
+        }
+        }
+        result = first_part / second_half;
+        i = n-1
+        console.log('end results',result);
+        console.log(number[i])
+        setEquation(result)
       } else if (number[i] === "+") {
         console.log("+")
       } else if (number[i] === "-"){

@@ -26,24 +26,19 @@ function App() {
     for(let i = 0; i <= number.length -1; i++) {
       const str_lngth = number.length
       if(number[i] ==='*'){
-        console.log("length", str_lngth)
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          // console.log(number[n])
-        if(number[n] === '*') {
-          console.log('found another boolean')
-          result = first_part * second_half;
-          console.log('result', result)
-          console.log('second half', second_half)
-          break
-        } else {
-          second_half = second_half + number[n]
-        }
+          if(number[n] === '*') {
+            result = first_part * second_half;
+            first_part = result
+            second_half = ''
+            break
+          } else {
+            second_half = second_half + number[n]
+          }
         }
         result = first_part * second_half;
         i = n-1
-        console.log('results',result);
-        console.log(number[i])
         setEquation(result)
       } else if (number[i] === "/"){
         console.log("/")
@@ -53,7 +48,6 @@ function App() {
         console.log("-")
       } else {
         first_part = first_part + number[i]
-        console.log("First cantation",first_part)
       }
   // I have too add the number[i]
 

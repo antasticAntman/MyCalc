@@ -25,10 +25,12 @@ function App() {
     // Make a new number set to add to that array until it either reaches the end or another boolean
     for(let i = 0; i <= number.length -1; i++) {
       const str_lngth = number.length
+
+      // Multiplication //
+      
       if(number[i] ==='*'){
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          // console.log(number[n])
         if(number[n] === '*') {
           console.log('found another boolean')
           result = first_part * second_half;
@@ -46,7 +48,8 @@ function App() {
         i = n-1
         setEquation(result)
       } else if (number[i] === "/"){
-        // console.log("/")
+
+        // Division //
         let n = i+1
         for(n; n <= number.length -1; n++) {
           // console.log(number[n])
@@ -66,10 +69,12 @@ function App() {
         result = first_part / second_half;
         i = n-1
         console.log('end results',result);
-        console.log(number[i])
+        console.log("last number interaction",number[i])
         setEquation(result)
       } else if (number[i] === "+") {
-        // console.log("+")
+
+        // Addition //
+
         let n = i+1
         for(n; n <= number.length -1; n++) {
           // console.log(number[n])

@@ -138,6 +138,10 @@ function App() {
   )
 }
 
+ 
+// I need to go over the code and write a better explanation for the code. 
+// I want to future proof my code :)
+
 export default App;
 
 // I am gonna put the equation button and the clear button

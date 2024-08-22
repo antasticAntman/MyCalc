@@ -32,13 +32,9 @@ function App() {
         let n = i+1
         for(n; n <= number.length -1; n++) {
         if(number[n] === '*') {
-          console.log('found another boolean')
           result = first_part * second_half;
-          console.log('result', result)
           first_part = result
-          console.log('first half', first_part)
           second_half = ''
-          console.log('second half', second_half)
           break
         } else {
           second_half = second_half + number[n]
@@ -50,17 +46,13 @@ function App() {
       } else if (number[i] === "/"){
 
         // Division //
+
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          // console.log(number[n])
         if(number[n] === '/') {
-          console.log('found another boolean')
           result = first_part / second_half;
-          console.log('result', result)
           first_part = result
-          console.log('first half', first_part)
           second_half = ''
-          console.log('second half', second_half)
           break
         } else {
           second_half = second_half + number[n]
@@ -68,8 +60,6 @@ function App() {
         }
         result = first_part / second_half;
         i = n-1
-        console.log('end results',result);
-        console.log("last number interaction",number[i])
         setEquation(result)
       } else if (number[i] === "+") {
 
@@ -77,15 +67,10 @@ function App() {
 
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          // console.log(number[n])
         if(number[n] === '+') {
-          console.log('found another boolean')
           result = parseInt(first_part) + parseFloat(second_half);
-          console.log('result', result)
           first_part = parseInt(result);
-          console.log('first half', first_part)
           second_half = ''
-          console.log('second half', second_half)
           break
         } else {
           second_half = second_half + number[n]
@@ -93,8 +78,6 @@ function App() {
         }
         result = parseInt(first_part) + parseInt(second_half);
         i = n-1
-        console.log('end results',result);
-        console.log('last present number in the string', number[i])
         setEquation(`${result}`)
         
       } else if (number[i] === "-"){
@@ -105,13 +88,9 @@ function App() {
         for(n; n <= number.length -1; n++) {
           // console.log(number[n])
         if(number[n] === '-') {
-          console.log('found another boolean')
           result = first_part - second_half;
-          console.log('result', result)
           first_part = result
-          console.log('first half', first_part)
           second_half = ''
-          console.log('second half', second_half)
           break
         } else {
           second_half = second_half + number[n]
@@ -119,8 +98,6 @@ function App() {
         }
         result = first_part - second_half;
         i = n-1
-        console.log('end results',result);
-        console.log("last number interaction",number[i])
         setEquation(result)
 
       } else {

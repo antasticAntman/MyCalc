@@ -6,16 +6,21 @@ import CalcKey from './Components/CalcKey';
 function App() {
 
   const [equation, setEquation] = useState('Number?')
+  const [count, setCount] = useState(0)
 
   const buttonClicker = (number) => {
     if(equation === 'Number?') {
       setEquation(number)
     } else {
       setEquation(equation + number)
+      // console.log('count',count)
     }
   }
 
   const submitionButton = (number) => {
+
+
+
     let first_part = "";
     let second_half = "";
 
@@ -104,6 +109,8 @@ function App() {
         first_part = first_part + number[i]
       }
     }
+
+    setCount(count + 1)
   }
 
   const clearButton = () => {

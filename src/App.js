@@ -13,7 +13,7 @@ function App() {
       setEquation(number)
     } else {
       setEquation(equation + number)
-      // console.log('count',count)
+      console.log('count',count)
     }
   }
 

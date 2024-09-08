@@ -100,7 +100,6 @@ function App() {
 
         let n = i+1
         for(n; n <= number.length -1; n++) {
-          // console.log(number[n])
         if(number[n] === '-') {
           result = first_part - second_half;
           first_part = result

@@ -23,7 +23,6 @@ function App() {
           setEquation(equation + number)
         }
 
-      // console.log('count',count)
     }
   }
 

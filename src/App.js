@@ -16,7 +16,6 @@ function App() {
       // If the results count if greater than one, set the equation back to a empty string, then set the count to zero
       // *VERY IMPORTANT Make a conditional that ignores the booleans after results have been calculated* 
         if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
-          console.log('entered this mofo')
          setEquation(number)
          setCount(0) 
         } else {

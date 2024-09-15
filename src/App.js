@@ -9,6 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const buttonClicker = (number) => {
+    // check if the equation equals the original state
     if(equation === 'Number?') {
       setEquation(number)
     } else {

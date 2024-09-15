@@ -12,6 +12,7 @@ function App() {
     // check if the equation equals the original state
     if(equation === 'Number?') {
       setEquation(number)
+      // set the state to the new number based on the button
     } else {
       // I want to check if the results have been updated!
       // If the results count if greater than one, set the equation back to a empty string, then set the count to zero

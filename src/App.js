@@ -17,6 +17,7 @@ function App() {
       // I want to check if the results have been updated!
       // If the results count is greater than one, set the equation back to a empty string, then set the count to zero
       // check if the count does not equal a boolean statment
+      // If the equation is a number and the count is less than zero, update the count to zero just in case and add onto the equation
       if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
          setEquation(number)
          setCount(0) 

@@ -15,9 +15,9 @@ function App() {
       // set the state to the new number based on the button
     } else {
       // I want to check if the results have been updated!
-      // If the results count if greater than one, set the equation back to a empty string, then set the count to zero
-      // *VERY IMPORTANT Make a conditional that ignores the booleans after results have been calculated* 
-        if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
+      // If the results count is greater than one, set the equation back to a empty string, then set the count to zero
+      // check if the count does not equal a boolean statment
+      if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
          setEquation(number)
          setCount(0) 
         } else {

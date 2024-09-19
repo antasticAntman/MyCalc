@@ -9,6 +9,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   const buttonClicker = (number) => {
+    console.log('count', count)
+    console.log('number', number)
     // check if the equation equals the original state
     if(equation === 'Number?') {
       setEquation(number)
@@ -19,6 +21,7 @@ function App() {
       // check if the number does not equal a boolean statment and the count is not zero, set the equation to its new number and
       // set the count to zero
       if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
+          console.log('We have entered the count')
          setEquation(number)
          setCount(0) 
         } else {
@@ -39,7 +42,6 @@ function App() {
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does
     // Make a new number set to add to that array until it either reaches the end or another boolean
     for(let i = 0; i <= number.length -1; i++) {
-      const str_lngth = number.length
 
       // Multiplication //
       

@@ -22,6 +22,7 @@ function App() {
          setEquation(number)
          setCount(0) 
         } else {
+      // If the equation is a number and the count is less than zero, update the count to zero just in case and add onto the equation
           setEquation(equation + number)
           setCount(0) 
         }

@@ -16,8 +16,8 @@ function App() {
     } else {
       // I want to check if the results have been updated!
       // If the results count is greater than one, set the equation back to a empty string, then set the count to zero
-      // check if the count does not equal a boolean statment
-      // If the equation is a number and the count is less than zero, update the count to zero just in case and add onto the equation
+      // check if the number does not equal a boolean statment and the count is not zero, set the equation to its new number and
+      // set the count to zero
       if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
          setEquation(number)
          setCount(0) 
@@ -31,11 +31,8 @@ function App() {
 
   const submitionButton = (number) => {
 
-
-
     let first_part = "";
     let second_half = "";
-
     let result = ''
   // We need to loop over the orignal number until it reaches a boolean of * or - or + or / 
     // Once it reaches that, create a array that holds those numbers before it reaches that boolean, once it does

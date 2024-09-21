@@ -20,7 +20,7 @@ function App() {
       // If the results count is greater than one, set the equation back to a empty string, then set the count to zero
       // check if the number does not equal a boolean statment and the count is not zero, set the equation to its new number and
       // set the count to zero
-      if(count === 1 && (number !== "*" || number !== "-" || number !== '+' || number !== '/')){
+      if(count === 1 && (number !=="*" || number !=="-" || number !=='+' || number !=='/')){
           console.log('We have entered the count')
          setEquation(number)
          setCount(0) 
